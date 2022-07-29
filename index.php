@@ -1,4 +1,5 @@
 <?php
+	$pdo = new PDO('sqlite:database.sqlite');
 	define('_DIRECT_ACCESS_CHECK', 1);
 	require_once("includes/sanitycheck.php"); # check everything before we proceed
 	require_once("settings.php"); # load settings
